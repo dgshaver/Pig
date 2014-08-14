@@ -1,0 +1,5 @@
+# My parameters
+YEAR = 2014
+DAY = 27
+MONTH = 07
+INPUTFILE = iis.log
