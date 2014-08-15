@@ -1,5 +1,5 @@
 %default WASB_SCHEME 'wasb';
-%default ROOT_FOLDER 'logs'
+%default ROOT_FOLDER 'logs';
 
 iislog = LOAD '$WASB_SCHEME:///$ROOT_FOLDER/$YEAR/$MONTH/$DAY/$INPUTFILE' USING PigStorage(' ') AS (date: chararray
 , time: chararray
